@@ -1,13 +1,24 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
+  dwarves.each do |dwarf|
+    counter = 1
+    while counter <= dwarves.length do
+    puts "#{counter}. #{dwarf}"
+    counter += 1
+    end
+  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(heroes)
+  heroes.collect { |hero| hero.capitalize + "!" }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_call(elements) 
+  if elements.detect |element|
+    element.length > 4
+    return true
+    else false
+  end
 end
 
 def find_the_cheese# code an argument here
