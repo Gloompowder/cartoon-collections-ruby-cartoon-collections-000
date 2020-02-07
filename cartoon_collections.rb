@@ -14,7 +14,7 @@ def summon_captain_planet(heroes)
 end
 
 def long_planeteer_call(elements) 
-  if elements.detect |element|
+  elements.detect |element|
     element.length > 4
     return true
     else false
