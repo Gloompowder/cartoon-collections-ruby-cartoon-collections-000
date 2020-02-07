@@ -16,7 +16,6 @@ end
 def long_planeteer_call(elements) 
   elements.detect |element|
     element.length < 4
-  end
 end
 
 def find_the_cheese# code an argument here
