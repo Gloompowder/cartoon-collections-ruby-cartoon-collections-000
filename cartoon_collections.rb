@@ -19,5 +19,11 @@ end
 
 def find_the_cheese(foods)
   if foods.include?("cheddar")
-    return cheddar"
+    return "cheddar"
+    elsif foods.include?("gouda")
+    return "gouda"
+  elsif foods.include?("camembert")
+  return "camembert"
+else
+  false
 end
