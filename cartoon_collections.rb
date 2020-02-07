@@ -15,9 +15,7 @@ end
 
 def long_planeteer_call(elements) 
   elements.detect |element|
-    element.length > 4
-    return true
-    else false
+    element.length < 4
   end
 end
 
