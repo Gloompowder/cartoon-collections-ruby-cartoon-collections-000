@@ -14,8 +14,8 @@ def summon_captain_planet(heroes)
 end
 
 def long_planeteer_calls(elements) 
-  elements.detect |element|
-    element.length > 4
+  elements.detect |x|
+    x.length > 4
 end
 
 def find_the_cheese# code an argument here
