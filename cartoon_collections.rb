@@ -13,7 +13,7 @@ def summon_captain_planet(heroes)
   heroes.collect { |hero| hero.capitalize + "!" }
 end
 
-def long_planeteer_call(elements) 
+def long_planeteer_calls(elements) 
   elements.detect |element|
     element.length < 4
 end
